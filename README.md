@@ -1,0 +1,2 @@
+# codarium
+QA autotests
