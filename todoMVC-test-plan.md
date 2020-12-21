@@ -48,10 +48,12 @@
   * hover the cursor over the line with the text "фывафывафы"
     - a cross should appear on the right
   * click on the cross to the right of the line with the text "фывафывафы"
-      + todo has deleted
+      + one todo has deleted 
     - you see 1 todo "2t" and "1 item left" text at the bottom
   * tap to the checkbox at the left of input string
+      + all todo has complited 
   * tap button Clear Complited
+      + all complited todo has deleted 
     - you see only input window and dont see any todo
   
 
