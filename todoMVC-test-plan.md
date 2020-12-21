@@ -1,17 +1,17 @@
-#### Where 
+**Where** 
 * Open Chrome browser, newest edition
 * Open https://todomvc4tasj.herokuapp.com/
   - todos page has opened
   
-* Functionality
-* Operations
+**Functionality**
+* **Operations**
 
- * INPUT new task
+ * **INPUT new task**
    * type "фывафывафы" at input form
    * type space twice
    * type Enter
      - you see 1 todo "фывафывафы."
- * Edit task
+ * **Edit task**
    * Double-click to edit a todo
      - todo is editabling
    * Use Up , Down, Left, Right arrows on keyboard
@@ -26,7 +26,7 @@
    * type "2t" at input form
    * type Enter
      - you see 1 todo "фывафывафы" and 1 todo "2t" and "2 items left" text at the bottom
-* Complete task
+* **Complete task**
   * tap to the checkbox at the left of "фывафывафы" string
     - you see 1 crossed out todo ~~"фывафывафы"~~ and 1 todo "2t" and "1 items left" text at the bottom
   * tap to the checkbox at the left of input string
@@ -38,7 +38,7 @@
   * tap Active 
   * tap All
     - you see 1 todo "фывафывафы" and 1 todo "2t" and "2 items left" text at the bottom
-* Delete task
+* **Delete task**
   * hover the cursor over the line with the text "фывафывафы"
     - a cross should appear on the right
   * click on the cross to the right of the line with the text "фывафывафы"
