@@ -53,7 +53,7 @@
   * tap to the checkbox at the left of input string
       + `all todo has complited` 
   * tap button Clear Complited
-      + ``all complited todo has deleted`
+      + `all complited todo has deleted`
     - you see only input window and dont see any todo
   
 
