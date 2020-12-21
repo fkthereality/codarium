@@ -6,7 +6,7 @@
 **Functionality**
 * **Operations**
 
- * **Add new task**
+ * **Add new todo**
    * type "фывафывафы" at input form
    * type space twice
    * type Enter
@@ -19,7 +19,7 @@
      - Up and Down returns indicator to start and and of the line
      - Left and Right is moves the pointer one letter forward or backward through the text
    * Type Delete at the end of line
-   * Type Enter
+   * Type Control + Enter
       + `todo has edited`
      - you see 1 todo "фывафывафы"
    * Close tab 
