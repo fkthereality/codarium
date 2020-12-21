@@ -6,7 +6,7 @@
 **Functionality**
 * **Operations**
 
- * **INPUT new task**
+ * **Add new task**
    * type "фывафывафы" at input form
    * type space twice
    * type Enter
