@@ -7,29 +7,53 @@
 ### Functional map ###
 * **TodoMVC tab conditions**
     - Open
-    - Reopen    
-* **Operations with todo**
-    - Create 
-    - Edit 
-    - Complete 
-    - Delete 
+    - Reopen 
 * **Filters**
     - All
     - Active
     - Completed
-* **Items left**
+* **Operations with todo in each of filters separately**
+    - Create 
+    - Edit 
+    - Complete 
+    - Delete 
+* **Items left counter in each of filters separately**
     - decrement
     - unchange
     - increment
-* **Button clear complete**
+* **Button Clear completed**
     - is visible
     - is hidden
   
   
   
+### Scenario: "Light version: TodoMVC, create, edit and delete todos in the todo list" ###
+
+* Open https://todomvc4tasj.herokuapp.com/
+* **Operations**
+
+ * **( 1 ) Create new todo** 
+   * type "first todo." , Enter 
+       + `accert "first todo."`
+ * **( 1 ) Edit todo** 
+   * Double-click at the "first todo"
+   * ( 1 ) Type Delete once at the end of line  , Enter
+   * type "second todo" , Enter
+   * ( 2 ) cancel edit "first todo" to "first todo to be canceled" 
+     - accert "first todo" ,  "second todo"
+     
+* **( 1 ) Complete todo** 
+  * ( 1 ) tap to the checkbox at the "first todo"
+    - accert 1 crossed out todo ~~"first todo"~~ and 1 todo "second todo"
+* **( 1 ) Delete todo** 
+  * ( 1 ) click on the cross button at the "first todo"
+       + `accert one todo has deleted` 
+  * tap to the checkbox at the left of input string
+  * ( 2 ) tap button Clear Complited 
+      + `accert all complited todo has deleted`
   
   
-### Scenario: "TodoMVC, create, edit and delete todos in the todo list" ###
+### Scenario: " FULL version TodoMVC, create, edit and delete todos in the todo list + filters and features" ###
 
 **Where** Given opened TodoMVC
 * Open Chrome browser, newest edition
@@ -77,7 +101,7 @@
     - accert you see 1 crossed out todo ~~"first todo"~~ and 1 todo "second todo" and "1 items left" text at the bottom *items left decrement*
   * ( 2 ) tap to the checkbox at the left of input string   *toggle All from active to completed*
     - accert you see 1 crossed out todo ~~"first todo"~~ and 1 crossed out todo ~~"second todo"~~ and "0 items left" text at the bottom *items left decrement*
-  * ( 1 ) tap to the checkbox at the left of "first todo" string   *toggle from completed to active*
+  * ( 2 ) tap to the checkbox at the left of "first todo" string   *toggle from completed to active*
     - accert you see 1 todo "first todo" and 1 crossed out todo ~~"second todo"~~ and "1 item left" text at the bottom *items left increment*
   * ( 2 ) tap to the checkbox at the left of input string   *toggle All from completed to active*
     - accert you see 1 todo "first todo" and 1 todo "second todo" and "2 items left" text at the bottom *items left increment*
