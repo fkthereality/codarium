@@ -21,8 +21,8 @@
   2. unchange
   3. increment
 **Button clear complete**
-  1.is visible
-  2.is hidden
+  1. is visible
+  2. is hidden
   
   
   
