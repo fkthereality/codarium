@@ -6,7 +6,7 @@
 **Functionality**
 * **Operations**
 
- * **Add new todo** ( 1 )
+ * **Create new todo** ( 1 )
    * type "фывафывафы" at input form
    * type space twice
    * type Enter
@@ -22,6 +22,13 @@
    * Type Control + Enter ( 4 )
       + `todo has edited`
      - you see 1 todo "фывафывафы"
+   * Double-click to edit a todo
+   * Click Tab
+     - finish of editing a todo
+   * Double-click to edit a todo
+   * Click out of editing form
+     - finish of editing a todo
+
    * Close tab  ( 2 )
    * Open https://todomvc4tasj.herokuapp.com/
       + `todo has saved after reopen page` 
@@ -30,11 +37,13 @@
    * type Enter
      - you see 1 todo "фывафывафы" and 1 todo "2t" and "2 items left" text at the bottom
 * **Complete task** ( 1 )
-  * tap to the checkbox at the left of "фывафывафы" string  ( 1 )
+  * tap to the checkbox at the left of "фывафывафы" string  ( 1 ) *toggle from active to completed*
     - you see 1 crossed out todo ~~"фывафывафы"~~ and 1 todo "2t" and "1 items left" text at the bottom
-  * tap to the checkbox at the left of input string  ( 2 )
+  * tap to the checkbox at the left of input string  ( 2 ) *toggle from active to completed*
     - you see 1 crossed out todo ~~"фывафывафы"~~ and 1 crossed out todo ~~"2t"~~ and "0 items left" text at the bottom
-  * tap to the checkbox at the left of input string  ( 2 )
+  * tap to the checkbox at the left of "фывафывафы" string  ( 1 ) *toggle from completed to active*
+    - you see 1 todo "фывафывафы" and 1 crossed out todo ~~"2t"~~ and "1 item left" text at the bottom
+  * tap to the checkbox at the left of input string  ( 2 ) *toggle from completed to active*
     - you see 1 todo "фывафывафы" and 1 todo "2t" and "2 items left" text at the bottom
   * tap Completed  ( 3 )
       + `todo Filter Completed`
@@ -60,6 +69,6 @@
   1. high priority
   2. medium priority
   3. low priority
-  4. You can score on this item
+  4. You can forget about this item
 
  
