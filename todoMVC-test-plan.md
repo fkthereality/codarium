@@ -109,4 +109,3 @@
       + `accert all complited todo has deleted`
     - accert you see only input window and dont see any todo *items left decrement*
   
-
