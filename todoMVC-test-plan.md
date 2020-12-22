@@ -1,12 +1,13 @@
 ### Functional map ###
-* **( 1 ) TodoMVC tab conditions**
+* **TodoMVC tab conditions**
     - ( 1 ) Open
-    - ( 2 ) Reopen 
+    - ( 2 ) Reopen
+    - ( 2 ) Restart browser
 * **( 3 ) Filters**
-    - ( 3 ) All
-    - ( 3 ) Active
-    - ( 3 ) Completed
-* **( 1 ) Operations with todo in each of filters separately**
+    - All
+    - Active
+    - Completed
+* **Operations with todo in each of filters separately**
     - ( 1 ) Create 
     - ( 2 ) Edit 
       - ( 3 ) by use keys:  Up, Down, Left, Right, Escape, Delete, Control+Enter, Enter, Tab
@@ -17,11 +18,11 @@
     - ( 1 ) Delete 
       - ( 1 ) by buttons Cross, Clear Complited
       - ( 4 ) enter "" when edit todo
-* **( 3 ) Items left counter in each of filters separately**
+* **Items left counter in each of filters separately**
     - ( 4 ) decrement
     - ( 4 ) unchange
     - ( 4 ) increment
-* **( 3 ) Button Clear completed**
+* **Button Clear completed**
     - ( 3 ) is visible as 1+ completed
     - ( 4 ) is hidden as no completed
   
