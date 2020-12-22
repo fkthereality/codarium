@@ -5,14 +5,14 @@
      ( 4 ) You can forget about this item
   
 ### Functional map ###
-
-* **Operations**
-    - Open TodoMVC
-    - Reopen TodoMVC
-    - Create todo
-    - Edit todo
-    - Complete todo
-    - Delete todo
+* **TodoMVC tab conditions**
+    - Open
+    - Reopen    
+* **Operations with todo**
+    - Create 
+    - Edit 
+    - Complete 
+    - Delete 
 * **Filters**
     - All
     - Active
