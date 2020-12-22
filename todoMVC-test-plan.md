@@ -15,15 +15,21 @@
 * **Operations with todo in each of filters separately**
     - Create 
     - Edit 
+      - by use keys:  Up, Down, Left, Right, Escape, Delete, Control+Enter, Enter, Tab
+      - Click out of editing form 
     - Complete 
+      - checkbox at the todo 
+      - checkbox Complete All near input
     - Delete 
+      - by buttons Cross, Clear Complited
+      - enter "" when edit
 * **Items left counter in each of filters separately**
     - decrement
     - unchange
     - increment
 * **Button Clear completed**
-    - is visible
-    - is hidden
+    - is visible as 1+ completed
+    - is hidden as no completed
   
   
   
