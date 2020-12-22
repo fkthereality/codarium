@@ -1,28 +1,29 @@
-**A priority**
-  1. high priority
-  2. medium priority
-  3. low priority
-  4. You can forget about this item
+* **A priority**
+    1. high priority
+    2. medium priority
+    3. low priority
+    4. You can forget about this item
   
 ### Functional map ###
-**Operations**
-  1. Open TodoMVC
-  2. Reopen TodoMVC
-  3. Create todo
-  4. Edit todo
-  5. Complete todo
-  6. Delete todo
-**Filters**
-  1. All
-  2. Active
-  3. Completed
-**Items left**
-  1. decrement
-  2. unchange
-  3. increment
-**Button clear complete**
-  1. is visible
-  2. is hidden
+
+* **Operations**
+    1. Open TodoMVC
+    2. Reopen TodoMVC
+    3. Create todo
+    4. Edit todo
+    5. Complete todo
+    6. Delete todo
+* **Filters**
+    1. All
+    2. Active
+    3. Completed
+* **Items left**
+    1. decrement
+    2. unchange
+    3. increment
+* **Button clear complete**
+    1. is visible
+    2. is hidden
   
   
   
