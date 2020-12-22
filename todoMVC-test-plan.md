@@ -1,35 +1,29 @@
-### A priority ###
-     ( 1 ) high priority
-     ( 2 ) medium priority
-     ( 3 ) low priority
-     ( 4 ) You can forget about this item
-  
 ### Functional map ###
-* **TodoMVC tab conditions**
-    - Open
-    - Reopen 
-* **Filters**
-    - All
-    - Active
-    - Completed
-* **Operations with todo in each of filters separately**
-    - Create 
-    - Edit 
-      - by use keys:  Up, Down, Left, Right, Escape, Delete, Control+Enter, Enter, Tab
-      - Click out of editing form 
-    - Complete 
-      - checkbox V 
-      - checkbox Complete All
-    - Delete 
-      - by buttons Cross, Clear Complited
-      - enter "" when edit todo
-* **Items left counter in each of filters separately**
-    - decrement
-    - unchange
-    - increment
-* **Button Clear completed**
-    - is visible as 1+ completed
-    - is hidden as no completed
+* **( 1 ) TodoMVC tab conditions**
+    - ( 1 ) Open
+    - ( 2 ) Reopen 
+* **( 3 ) Filters**
+    - ( 3 ) All
+    - ( 3 ) Active
+    - ( 3 ) Completed
+* **( 1 ) Operations with todo in each of filters separately**
+    - ( 1 ) Create 
+    - ( 2 ) Edit 
+      - ( 3 ) by use keys:  Up, Down, Left, Right, Escape, Delete, Control+Enter, Enter, Tab
+      - ( 4 ) Click out of editing form 
+    - ( 1 ) Complete 
+      - ( 1 ) checkbox V 
+      - ( 3 ) checkbox Complete All
+    - ( 1 ) Delete 
+      - ( 1 ) by buttons Cross, Clear Complited
+      - ( 4 ) enter "" when edit todo
+* **( 3 ) Items left counter in each of filters separately**
+    - ( 4 ) decrement
+    - ( 4 ) unchange
+    - ( 4 ) increment
+* **( 3 ) Button Clear completed**
+    - ( 3 ) is visible as 1+ completed
+    - ( 4 ) is hidden as no completed
   
   
   
@@ -50,7 +44,7 @@
      
 * **( 1 ) Complete todo** 
   * ( 1 ) tap to the checkbox at the "a"
-    - accert 1 crossed out todo ~~"a"~~ and 1 todo "b"
+    - accert crossed out ~~"a"~~ and "b"
 * **( 1 ) Delete todo** 
   * ( 1 ) click on the cross button at the "a"
        + `accert one todo has deleted` 
@@ -59,7 +53,7 @@
       + `accert all complited todo has deleted`
   
   
-### Scenario: " FULL version TodoMVC, create, edit and delete todos in the todo list + filters and features" ###
+### Scenario for monkeys: " FULL version TodoMVC, create, edit and delete todos in the todo list + filters and features"  ###
 
 **Where** Given opened TodoMVC
 * Open Chrome browser, newest edition
