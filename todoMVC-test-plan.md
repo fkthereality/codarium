@@ -1,4 +1,4 @@
-###Scenario: "TodoMVC, create, edit and delete tasks in the task list"###
+### Scenario: "TodoMVC, create, edit and delete tasks in the task list" ###
 
 **Where** Given opened TodoMVC
 * Open Chrome browser, newest edition
