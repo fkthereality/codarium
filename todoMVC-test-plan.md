@@ -1,3 +1,33 @@
+**A priority**
+  1. high priority
+  2. medium priority
+  3. low priority
+  4. You can forget about this item
+  
+### Functional map ###
+**Operations**
+  1. Open TodoMVC
+  2. Reopen TodoMVC
+  3. Create todo
+  4. Edit todo
+  5. Complete todo
+  6. Delete todo
+**Filters**
+  1. All
+  2. Active
+  3. Completed
+**Items left**
+  1. decrement
+  2. unchange
+  3. increment
+**Button clear complete**
+  1.is visible
+  2.is hidden
+  
+  
+  
+  
+  
 ### Scenario: "TodoMVC, create, edit and delete todos in the todo list" ###
 
 **Where** Given opened TodoMVC
@@ -14,7 +44,7 @@
    * type Enter
        + `accert todo has added`
      - accert you see 1 todo "first todo." and "1 item left" text at the bottom  *items left increment*
- * **( 1 ) Edit task** 
+ * **( 1 ) Edit todo** 
    * Double-click to edit a todo
      - todo is editabling
    * ( 4 ) Use Up , Down, Left, Right arrows on keyboard 
@@ -41,7 +71,7 @@
    * ( 2 ) cancel edit "first todo" to "first todo to be canceled" 
      - accert you see 1 todo "first todo" and 1 todo "second todo" and "2 items left" text at the bottom *items left unchange*
      
-* **( 1 ) Complete task** 
+* **( 1 ) Complete todo** 
   * ( 1 ) tap to the checkbox at the left of "first todo" string   *toggle from active to completed*
     - accert you see 1 crossed out todo ~~"first todo"~~ and 1 todo "second todo" and "1 items left" text at the bottom *items left decrement*
   * ( 2 ) tap to the checkbox at the left of input string   *toggle All from active to completed*
@@ -58,7 +88,7 @@
   * ( 3 ) tap All 
        + `accert todo Filter All`
     - accert you see 1 todo "first todo" and 1 todo "second todo" and "2 items left" text at the bottom *items left unchange*
-* **( 1 ) Delete task** 
+* **( 1 ) Delete todo** 
   * hover the cursor over the line with the text "first todo"
     - a cross should appear on the right
   * ( 1 ) click on the cross to the right of the line with the text "first todo" 
@@ -78,8 +108,4 @@
       + `accert all complited todo has deleted`
     - accert you see only input window and dont see any todo *items left decrement*
   
-**A priority**
-  1. high priority
-  2. medium priority
-  3. low priority
-  4. You can forget about this item
+
