@@ -1,36 +1,37 @@
+[Github](https://github.com/fkthereality/codarium/blob/ToDoMVC/todoMVC-test-plan.md)
 ### A priority ###
-     ( 1 ) high priority
-     ( 2 ) medium priority
-     ( 3 ) low priority
-     ( 4 ) You can forget about this item
+     ( ! ) high priority
+     ( !! ) medium priority
+     ( !!! ) low priority
+     ( !!!! ) You can forget about this item
 
 ### Functional map ###
 * **TodoMVC tab conditions**
-    - ( 1 ) Open
-    - ( 2 ) Reopen
-    - ( 2 ) Restart browser
-* **( 3 ) Filters**
+    - ( ! ) Open
+    - ( !! ) Reopen
+    - ( !! ) Restart browser
+* **( !!! ) Filters**
     - All
     - Active
     - Completed
 * **Operations with todo in each of filters separately**
-    - ( 1 ) Create 
-    - ( 2 ) Edit 
-      - ( 3 ) by use keys:  Up, Down, Left, Right, Escape, Delete, Control+Enter, Enter, Tab
-      - ( 4 ) Click out of editing form 
-    - ( 1 ) Complete 
-      - ( 1 ) checkbox V 
-      - ( 3 ) checkbox Complete All
-    - ( 1 ) Delete 
-      - ( 1 ) by buttons Cross, Clear Complited
-      - ( 4 ) enter "" when edit todo
+    - ( ! ) Create 
+    - ( !! ) Edit 
+      - ( !!! ) by use keys:  Up, Down, Left, Right, Escape, Delete, Control+Enter, Enter, Tab
+      - ( !!!! ) Click out of editing form 
+    - ( ! ) Complete 
+      - ( ! ) checkbox V 
+      - ( !!! ) checkbox Complete All
+    - ( ! ) Delete 
+      - ( ! ) by buttons Cross, Clear Complited
+      - ( !!!! ) enter "" when edit todo
 * **Items left counter in each of filters separately**
-    - ( 4 ) decrement
-    - ( 4 ) unchange
-    - ( 4 ) increment
+    - ( !!!! ) decrement
+    - ( !!!! ) unchange
+    - ( !!!! ) increment
 * **Button Clear completed**
-    - ( 3 ) is visible as 1+ completed
-    - ( 4 ) is hidden as no completed
+    - ( !!! ) is visible as 1+ completed
+    - ( !!!! ) is hidden as no completed
   
   
   
@@ -39,24 +40,24 @@
 * Open https://todomvc4tasj.herokuapp.com/
 * **Operations**
 
- * **( 1 ) Create new todo** 
+ * **( ! ) Create new todo** 
    * type "a." , Enter 
        + `accert "a."`
- * **( 1 ) Edit todo** 
+ * **( ! ) Edit todo** 
    * Double-click at the "a"
-   * ( 1 ) Type Delete once at the end of line  , Enter
+   * ( ! ) Type Delete once at the end of line  , Enter
    * type "b" , Enter
-   * ( 2 ) cancel edit "a" to "a to be canceled" 
+   * ( !! ) cancel edit "a" to "a to be canceled" 
      - accert "a" ,  "b"
      
-* **( 1 ) Complete todo** 
-  * ( 1 ) tap to the checkbox at the "a"
+* **( ! ) Complete todo** 
+  * ( ! ) tap to the checkbox at the "a"
     - accert crossed out ~~"a"~~ and "b"
-* **( 1 ) Delete todo** 
-  * ( 1 ) click on the cross button at the "a"
+* **( ! ) Delete todo** 
+  * ( ! ) click on the cross button at the "a"
        + `accert one todo has deleted` 
   * tap to the checkbox at the left of input string
-  * ( 2 ) tap button Clear Complited 
+  * ( !! ) tap button Clear Complited 
       + `accert all complited todo has deleted`
   
   
@@ -70,73 +71,73 @@
 **Functionality**
 * **Operations**
 
- * **( 1 ) Create new todo** 
+ * **( ! ) Create new todo** 
    * type "a" at input form
-   * ( 4 ) type space twice  *dot at the end of string*
+   * ( !!!! ) type space twice  *dot at the end of string*
    * type Enter
        + `accert todo has added`
-     - accert you see 1 todo "a." and "1 item left" text at the bottom  *items left increment*
- * **( 1 ) Edit todo** 
+     - accert you see ! todo "a." and "1 item left" text at the bottom  *items left increment*
+ * **( ! ) Edit todo** 
    * Double-click to edit a todo
      - todo is editabling
-   * ( 4 ) Use Up , Down, Left, Right arrows on keyboard 
+   * ( !!!! ) Use Up , Down, Left, Right arrows on keyboard 
      - Up and Down returns indicator to start and and of the line
      - Left and Right is moves the pointer one letter forward or backward through the text
-   * ( 1 ) Type Delete once at the end of line  
-   * ( 4 ) Type Control + Enter 
+   * ( ! ) Type Delete once at the end of line  
+   * ( !!!! ) Type Control + Enter 
        + `accert todo has edited`
-     - accert you see 1 todo "a" and "1 item left" text at the bottom  *items left unchange*
+     - accert you see ! todo "a" and "1 item left" text at the bottom  *items left unchange*
    * Double-click at the text "a" to edit a todo
-   * ( 3 ) Click Tab 
+   * ( !!! ) Click Tab 
      - finish of editing a todo
    * Double-click to edit a todo
-   * ( 4 ) Click out of editing form 
+   * ( !!!! ) Click out of editing form 
      - finish of editing a todo
 
-   * ( 2 ) Close tab  
+   * ( !! ) Close tab  
    * Open https://todomvc4tasj.herokuapp.com/
        + `accert todo has saved after reopen page` 
-     - accert you see 1 todo "a" and "1 item left" text at the bottom *items left unchange*
+     - accert you see ! todo "a" and "1 item left" text at the bottom *items left unchange*
    * type "b" at input form
    * type Enter
-     - accert you see 1 todo "a" and 1 todo "b" and "2 items left" text at the bottom *items left increment*
-   * ( 2 ) cancel edit "a" to "a to be canceled" 
-     - accert you see 1 todo "a" and 1 todo "b" and "2 items left" text at the bottom *items left unchange*
+     - accert you see ! todo "a" and ! todo "b" and "2 items left" text at the bottom *items left increment*
+   * ( !! ) cancel edit "a" to "a to be canceled" 
+     - accert you see ! todo "a" and ! todo "b" and "2 items left" text at the bottom *items left unchange*
      
-* **( 1 ) Complete todo** 
-  * ( 1 ) tap to the checkbox at the left of "a" string   *toggle from active to completed*
-    - accert you see 1 crossed out todo ~~"a"~~ and 1 todo "b" and "1 items left" text at the bottom *items left decrement*
-  * ( 2 ) tap to the checkbox at the left of input string   *toggle All from active to completed*
-    - accert you see 1 crossed out todo ~~"a"~~ and 1 crossed out todo ~~"b"~~ and "0 items left" text at the bottom *items left decrement*
-  * ( 2 ) tap to the checkbox at the left of "a" string   *toggle from completed to active*
-    - accert you see 1 todo "a" and 1 crossed out todo ~~"b"~~ and "1 item left" text at the bottom *items left increment*
-  * ( 2 ) tap to the checkbox at the left of input string   *toggle All from completed to active*
-    - accert you see 1 todo "a" and 1 todo "b" and "2 items left" text at the bottom *items left increment*
-  * ( 3 ) tap Completed  
+* **( ! ) Complete todo** 
+  * ( ! ) tap to the checkbox at the left of "a" string   *toggle from active to completed*
+    - accert you see ! crossed out todo ~~"a"~~ and ! todo "b" and "1 items left" text at the bottom *items left decrement*
+  * ( !! ) tap to the checkbox at the left of input string   *toggle All from active to completed*
+    - accert you see ! crossed out todo ~~"a"~~ and ! crossed out todo ~~"b"~~ and "0 items left" text at the bottom *items left decrement*
+  * ( !! ) tap to the checkbox at the left of "a" string   *toggle from completed to active*
+    - accert you see ! todo "a" and ! crossed out todo ~~"b"~~ and "1 item left" text at the bottom *items left increment*
+  * ( !! ) tap to the checkbox at the left of input string   *toggle All from completed to active*
+    - accert you see ! todo "a" and ! todo "b" and "2 items left" text at the bottom *items left increment*
+  * ( !!! ) tap Completed  
        + `accert todo Filter Completed`
     - accert you see "2 items left" text at the bottom and didnt see the todos *items left unchange*
-  * ( 3 ) tap Active 
+  * ( !!! ) tap Active 
        + `accert todo Filter Active` 
-  * ( 3 ) tap All 
+  * ( !!! ) tap All 
        + `accert todo Filter All`
-    - accert you see 1 todo "a" and 1 todo "b" and "2 items left" text at the bottom *items left unchange*
-* **( 1 ) Delete todo** 
+    - accert you see ! todo "a" and ! todo "b" and "2 items left" text at the bottom *items left unchange*
+* **( ! ) Delete todo** 
   * hover the cursor over the line with the text "a"
     - a cross should appear on the right
-  * ( 1 ) click on the cross to the right of the line with the text "a" 
+  * ( ! ) click on the cross to the right of the line with the text "a" 
        + `accert one todo has deleted` 
-    - accert you see 1 todo "b" and "1 item left" text at the bottom *items left decrement*
+    - accert you see ! todo "b" and "1 item left" text at the bottom *items left decrement*
   * type "c" at input form
   * type Enter
        + `accert todo has added`
-     - accert you see 1 todo "c" and 1 todo "b" and "2 items left" text at the bottom *items left increment*
+     - accert you see ! todo "c" and ! todo "b" and "2 items left" text at the bottom *items left increment*
   * double-click on the text "a" to edit a todo
-  * ( 4 ) delete all symbols at the string *delete a todo by deleting its text in edit mode* 
+  * ( !!!! ) delete all symbols at the string *delete a todo by deleting its text in edit mode* 
   * Click Tab or Click out of editing form or type Enter or type Control + Enter 
-    - accert you see 1 todo "b" and "1 item left" text at the bottom *items left decrement*
+    - accert you see ! todo "b" and "1 item left" text at the bottom *items left decrement*
   * tap to the checkbox at the left of input string
       + `accert all todo has complited`  
-  * ( 2 ) tap button Clear Complited 
+  * ( !! ) tap button Clear Complited 
       + `accert all complited todo has deleted`
     - accert you see only input window and dont see any todo *items left decrement*
   
