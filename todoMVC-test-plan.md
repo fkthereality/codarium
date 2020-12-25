@@ -58,18 +58,20 @@
 * **Operations**
 
  * **( ! ) Create new todo** 
-   * Create "a" 
-       + `assert "a"`
+   * create 'a', 'b'
+     + `assert list: 'a', 'b'`
+     
  * **( ! ) Edit todo** 
    * edit "a" to "a edited"
    * Create "b"
    * ( !! ) cancel edit "a edited" to "a to be canceled" 
-     + `assert "a edited" ,  "b"`
+     + `assert list: "a edited" ,  "b"`
      
 * **( ! ) Complete todo** 
-  * ( ! ) tap to the checkbox at the "a edited"
-  * ( !! ) tap button Clear Complited 
-      + `assert "b"`
+  * ( ! ) complete 'a edited'
+  * ( !! ) Clear Complited 
+      + `assert list: "b"`
+      
 * **( ! ) Delete todo** 
-  * ( ! ) click on the X button at the "a edited"
-       + `assert todo has deleted` 
+  * ( ! ) delete "b"
+       + `assert list: todo has deleted` 
