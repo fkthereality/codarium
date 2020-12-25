@@ -52,26 +52,26 @@
     - Completed  
   
   
-### Scenario: "Light version: TodoMVC, create, edit and delete todos in the todo list" ###
+### Scenario: 'TodoMVC - basic functionality' ###
 
 * Open https://todomvc4tasj.herokuapp.com/
 * **Operations**
 
- * **( ! ) Create new todo** 
+ * **Create new todo** 
    * create 'a', 'b'
      + `assert list: 'a', 'b'`
      
- * **( ! ) Edit todo** 
-   * edit "a" to "a edited"
-   * Create "b"
-   * ( !! ) cancel edit "a edited" to "a to be canceled" 
-     + `assert list: "a edited" ,  "b"`
+ * **Edit todo** 
+   * edit 'a' to 'a edited'
+   * Create 'b'
+   * cancel edit 'a edited' to 'a to be canceled' 
+     + `assert list: 'a edited' ,  'b'`
      
-* **( ! ) Complete todo** 
-  * ( ! ) complete 'a edited'
-  * ( !! ) Clear Complited 
-      + `assert list: "b"`
+* **Complete todo** 
+  * complete 'a edited'
+  * (Clear Complited 
+      + `assert list: 'b'`
       
-* **( ! ) Delete todo** 
-  * ( ! ) delete "b"
+* **Delete todo** 
+  * delete 'b'
        + `assert list: todo has deleted` 
