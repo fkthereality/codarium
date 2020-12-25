@@ -10,48 +10,47 @@
     - ( ! ) Open
     - ( !! ) Reopen
     - ( !! ) Restart browser
-* **( !!! ) Filters**
-    - All
-    - Active
-    - Completed
+
 * **Operations with todo in each of filters separately**
     - ( ! ) Create 
     - ( !! ) Edit 
-      - ( !!! ) by use keys:  
-      -  Up = go to start of string
-      -  Down = go to end of string
-      -  Left = go to 1 symbol left
-      -  Right = go to 1 symbol right
+
       -  Escape = undo all changes
       -  Tab = confirm all changes
       -  Delete =  delete 1 symbol left
-      -  Delete all string = delete a todo if confirm changes
+      -  Delete all string (enter blank when edit todo) = delete a todo if confirm changes
       -  Control+Enter = confirm all changes
       -  Enter = confirm all changes
-
-      
       - ( !!!! ) Click out of editing form 
+
     - ( ! ) Complete 
-      - ( ! ) one (single) 
-      - ( !!! ) Complete All
+      - ( ! ) one 
+      - ( !!! ) All
+
+    -( !!! ) Activate  
+      - one 
+      - All
 
     - ( ! ) Delete 
       - ( ! ) by buttons: 
         - X 
         - Clear Completed
-      - ( !!!! ) enter blank when edit todo
+      
 
-**Note: Clear completed button and left counter not required according to the terms of reference**
-* **Items left counter in each of filters separately**
+**Note: Clear completed button and left counter and filters not required according to the terms of reference**
+* **( !!!! ) Items left counter in each of filters separately**
   
-    - ( !!!! ) decrement
-    - ( !!!! ) unchange
-    - ( !!!! ) increment
+    - decrement
+    - unchange
+    - increment
 
-* **Button Clear completed**
-    - ( !!! ) is visible when  1 or more todos completed
-    - ( !!!! ) is hidden when no completed todos
-  
+* **( !!!! ) Button Clear completed**
+    - is visible when  1 or more todos completed
+    - is hidden when no completed todos
+* **( !!! ) Filters**
+    - All
+    - Active
+    - Completed  
   
   
 ### Scenario: "Light version: TodoMVC, create, edit and delete todos in the todo list" ###
@@ -60,21 +59,20 @@
 * **Operations**
 
  * **( ! ) Create new todo** 
-   * type "a." , Enter 
-       + `accert "a."`
+   * Create "a" 
+       + `accert "a"`
  * **( ! ) Edit todo** 
-   * Double-click at the "a."
-   * ( ! ) Type Delete once at the end of line  , Enter
-   * type "b" , Enter
-   * ( !! ) cancel edit "a" to "a to be canceled" 
-     - accert "a" ,  "b"
+   * edit "a" to "a edited"
+   * Create "b"
+   * ( !! ) cancel edit ""a edited"" to "a to be canceled" 
+     - accert "a edited" ,  "b"
      
 * **( ! ) Complete todo** 
-  * ( ! ) tap to the checkbox at the "a"
-    - accert crossed out ~~"a"~~ and "b"
-* **( ! ) Delete todo** 
-  * ( ! ) click on the X button at the "a"
-       + `accert one todo has deleted` 
-  * tap to the checkbox at the left of input string
+  * ( ! ) tap to the checkbox at the "a edited"
   * ( !! ) tap button Clear Complited 
-      + `accert all complited todo has deleted`
+      + `accert "b"`
+* **( ! ) Delete todo** 
+  * ( ! ) click on the X button at the "a edited"
+       + `accert todo has deleted` 
+
+  
