@@ -59,17 +59,17 @@
 
  * **( ! ) Create new todo** 
    * Create "a" 
-       + `accert "a"`
+       + `assert "a"`
  * **( ! ) Edit todo** 
    * edit "a" to "a edited"
    * Create "b"
    * ( !! ) cancel edit "a edited" to "a to be canceled" 
-     + `accert "a edited" ,  "b"`
+     + `assert "a edited" ,  "b"`
      
 * **( ! ) Complete todo** 
   * ( ! ) tap to the checkbox at the "a edited"
   * ( !! ) tap button Clear Complited 
-      + `accert "b"`
+      + `assert "b"`
 * **( ! ) Delete todo** 
   * ( ! ) click on the X button at the "a edited"
-       + `accert todo has deleted` 
+       + `assert todo has deleted` 
