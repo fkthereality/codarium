@@ -73,5 +73,3 @@
 * **( ! ) Delete todo** 
   * ( ! ) click on the X button at the "a edited"
        + `accert todo has deleted` 
-
-  
