@@ -20,7 +20,7 @@
           -  Tab
           -  Control+Enter
           -  Enter
-          -  Click out of editing form 
+          -  Click outside of editing form 
 
     - ( ! ) Complete 
       - ( ! ) one 
