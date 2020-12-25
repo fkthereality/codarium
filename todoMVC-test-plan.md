@@ -63,7 +63,7 @@
    * type "a." , Enter 
        + `accert "a."`
  * **( ! ) Edit todo** 
-   * Double-click at the "a"
+   * Double-click at the "a."
    * ( ! ) Type Delete once at the end of line  , Enter
    * type "b" , Enter
    * ( !! ) cancel edit "a" to "a to be canceled" 
