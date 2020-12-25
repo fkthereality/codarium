@@ -9,31 +9,33 @@
 * **TodoMVC tab conditions**
     - ( ! ) Open
     - ( !! ) Reopen
-    - ( !! ) Restart browser
+    - ( !!! ) Restart browser
 
 * **Operations with todo in each of filters separately**
     - ( ! ) Create 
-    - ( !! ) Edit 
+    - Edit 
       - undo all changes:    
-          -  Escape 
+          -  ( ! ) Escape 
       - confirm all changes:
-          -  Tab
-          -  Control+Enter
-          -  Enter
-          -  Click outside of editing form 
+          -  ( ! ) Enter      
+          -  ( !!! )Tab
+          -  ( !!! ) Click outside of editing form           
+          -  ( !!!! )Control+Enter
 
-    - ( ! ) Complete 
+
+
+    - Complete 
       - ( ! ) one 
       - ( !!! ) All
 
-    - ( !!! ) Activate  
-      - one 
-      - All
+    - Activate  
+      - ( ! ) one 
+      - ( !!! ) All
 
-    - ( ! ) Delete 
-       - X 
-       - Clear Completed
-       - Edit to blank
+    - Delete 
+       - ( ! ) X 
+       - ( !!!! ) Clear Completed
+       - ( !!!! ) Edit to blank
 
 
 **Note: Clear completed button, items left counter and filters are not required according to the terms of reference**
@@ -46,6 +48,7 @@
 * **( !!!! ) Button Clear completed**
     - is visible when  1 or more todos completed
     - is hidden when no completed todos
+    
 * **( !!! ) Filters**
     - All
     - Active
