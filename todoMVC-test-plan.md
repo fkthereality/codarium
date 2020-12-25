@@ -23,20 +23,20 @@
           -  Click out of editing form 
 
     - ( ! ) Complete 
-       - ( ! ) one 
-       - ( !!! ) All
+      - ( ! ) one 
+      - ( !!! ) All
 
-    - ( !!! ) Activate  
+    -( !!! ) Activate  
       - one 
       - All
 
     - ( ! ) Delete 
        - X 
        - Clear Completed
-       -  Delete all string (enter blank when edit todo) = delete a todo if confirm changes
+       - Edit to blank
 
 
-**Note: Clear completed button and left counter and filters not required according to the terms of reference**
+**Note: Clear completed button, items left counter and filters are not required according to the terms of reference**
 * **( !!!! ) Items left counter in each of filters separately**
   
     - decrement
