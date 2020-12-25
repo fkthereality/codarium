@@ -63,7 +63,7 @@
    * edit "a" to "a edited"
    * Create "b"
    * ( !! ) cancel edit ""a edited"" to "a to be canceled" 
-     - accert "a edited" ,  "b"
+     + `accert "a edited" ,  "b"`
      
 * **( ! ) Complete todo** 
   * ( ! ) tap to the checkbox at the "a edited"
