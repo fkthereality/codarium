@@ -55,7 +55,6 @@
 ### Scenario: 'TodoMVC - basic functionality' ###
 
 * Open https://todomvc4tasj.herokuapp.com/
-* **Operations**
 
  * **Create new todo** 
    * create 'a', 'b'
