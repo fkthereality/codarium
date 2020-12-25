@@ -62,7 +62,6 @@
      
  * **Edit todo** 
    * edit 'a' to 'a edited'
-   * Create 'b'
    * cancel edit 'a edited' to 'a to be canceled' 
      + `assert list: 'a edited' ,  'b'`
      
@@ -73,4 +72,4 @@
       
 * **Delete todo** 
   * delete 'b'
-       + `assert list: todo has deleted` 
+       + `assert list: empty` 
