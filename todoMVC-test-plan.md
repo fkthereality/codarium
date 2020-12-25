@@ -26,7 +26,7 @@
       - ( ! ) one 
       - ( !!! ) All
 
-    -( !!! ) Activate  
+    - ( !!! ) Activate  
       - one 
       - All
 
@@ -69,7 +69,7 @@
      
 * **Complete todo** 
   * complete 'a edited'
-  * (Clear Complited 
+  * Clear Complited 
       + `assert list: 'b'`
       
 * **Delete todo** 
