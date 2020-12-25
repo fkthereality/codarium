@@ -23,8 +23,8 @@
           -  Click out of editing form 
 
     - ( ! ) Complete 
-      - ( ! ) one 
-      - ( !!! ) All
+       - ( ! ) one 
+       - ( !!! ) All
 
     -( !!! ) Activate  
       - one 
