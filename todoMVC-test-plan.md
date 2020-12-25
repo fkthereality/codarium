@@ -14,13 +14,13 @@
 * **Operations with todo in each of filters separately**
     - ( ! ) Create 
     - ( !! ) Edit 
-      -  Escape = undo all changes
-      -  Tab = confirm all changes
-      -  Delete =  delete 1 symbol left
-      -  Delete all string (enter blank when edit todo) = delete a todo if confirm changes
-      -  Control+Enter = confirm all changes
-      -  Enter = confirm all changes
-      - ( !!!! ) Click out of editing form 
+      - undo all changes:    
+          -  Escape 
+      - confirm all changes:
+          -  Tab
+          -  Control+Enter
+          -  Enter
+          -  Click out of editing form 
 
     - ( ! ) Complete 
       - ( ! ) one 
@@ -33,7 +33,8 @@
     - ( ! ) Delete 
        - X 
        - Clear Completed
-      
+       -  Delete all string (enter blank when edit todo) = delete a todo if confirm changes
+
 
 **Note: Clear completed button and left counter and filters not required according to the terms of reference**
 * **( !!!! ) Items left counter in each of filters separately**
