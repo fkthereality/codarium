@@ -26,7 +26,7 @@
        - ( ! ) one 
        - ( !!! ) All
 
-    -( !!! ) Activate  
+    - ( !!! ) Activate  
       - one 
       - All
 
