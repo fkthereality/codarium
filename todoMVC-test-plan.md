@@ -63,7 +63,7 @@
  * **( ! ) Edit todo** 
    * edit "a" to "a edited"
    * Create "b"
-   * ( !! ) cancel edit ""a edited"" to "a to be canceled" 
+   * ( !! ) cancel edit "a edited" to "a to be canceled" 
      + `accert "a edited" ,  "b"`
      
 * **( ! ) Complete todo** 
