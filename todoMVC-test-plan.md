@@ -17,7 +17,19 @@
 * **Operations with todo in each of filters separately**
     - ( ! ) Create 
     - ( !! ) Edit 
-      - ( !!! ) by use keys:  Up, Down, Left, Right, Escape, Delete, Control+Enter, Enter, Tab
+      - ( !!! ) by use keys:  
+        Up = go to start of string
+        Down = go to end of string
+        Left = go to 1 symbol left
+        Right = go to 1 symbol right
+        Escape = undo all changes
+        Tab = confirm all changes
+        Delete =  delete 1 symbol left
+        Delete all string = delete a todo if confirm changes
+        Control+Enter = confirm all changes
+        Enter = confirm all changes
+
+      
       - ( !!!! ) Click out of editing form 
     - ( ! ) Complete 
       - ( ! ) checkbox V 
