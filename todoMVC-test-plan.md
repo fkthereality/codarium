@@ -14,7 +14,6 @@
 * **Operations with todo in each of filters separately**
     - ( ! ) Create 
     - ( !! ) Edit 
-
       -  Escape = undo all changes
       -  Tab = confirm all changes
       -  Delete =  delete 1 symbol left
@@ -32,9 +31,8 @@
       - All
 
     - ( ! ) Delete 
-      - ( ! ) by buttons: 
-        - X 
-        - Clear Completed
+       - X 
+       - Clear Completed
       
 
 **Note: Clear completed button and left counter and filters not required according to the terms of reference**
