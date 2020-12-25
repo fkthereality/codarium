@@ -32,11 +32,15 @@
       
       - ( !!!! ) Click out of editing form 
     - ( ! ) Complete 
-      - ( ! ) checkbox V 
-      - ( !!! ) checkbox Complete All
+      - ( ! ) one (single) 
+      - ( !!! ) Complete All
+
     - ( ! ) Delete 
-      - ( ! ) by buttons Cross, Clear Complited
-      - ( !!!! ) enter "" when edit todo
+      - ( ! ) by buttons: 
+        - X 
+        - Clear Complited
+      - ( !!!! ) enter blank when edit todo
+      
 * **Items left counter in each of filters separately**
     - ( !!!! ) decrement
     - ( !!!! ) unchange
@@ -64,9 +68,9 @@
      
 * **( ! ) Complete todo** 
   * ( ! ) tap to the checkbox at the "a"
-    - accert crossed out ~~"a"~~ and "b"
+    - accert Xed out ~~"a"~~ and "b"
 * **( ! ) Delete todo** 
-  * ( ! ) click on the cross button at the "a"
+  * ( ! ) click on the X button at the "a"
        + `accert one todo has deleted` 
   * tap to the checkbox at the left of input string
   * ( !! ) tap button Clear Complited 
@@ -118,11 +122,11 @@
      
 * **( ! ) Complete todo** 
   * ( ! ) tap to the checkbox at the left of "a" string   *toggle from active to completed*
-    - accert you see ! crossed out todo ~~"a"~~ and ! todo "b" and "1 items left" text at the bottom *items left decrement*
+    - accert you see ! Xed out todo ~~"a"~~ and ! todo "b" and "1 items left" text at the bottom *items left decrement*
   * ( !! ) tap to the checkbox at the left of input string   *toggle All from active to completed*
-    - accert you see ! crossed out todo ~~"a"~~ and ! crossed out todo ~~"b"~~ and "0 items left" text at the bottom *items left decrement*
+    - accert you see ! Xed out todo ~~"a"~~ and ! Xed out todo ~~"b"~~ and "0 items left" text at the bottom *items left decrement*
   * ( !! ) tap to the checkbox at the left of "a" string   *toggle from completed to active*
-    - accert you see ! todo "a" and ! crossed out todo ~~"b"~~ and "1 item left" text at the bottom *items left increment*
+    - accert you see ! todo "a" and ! Xed out todo ~~"b"~~ and "1 item left" text at the bottom *items left increment*
   * ( !! ) tap to the checkbox at the left of input string   *toggle All from completed to active*
     - accert you see ! todo "a" and ! todo "b" and "2 items left" text at the bottom *items left increment*
   * ( !!! ) tap Completed  
@@ -135,8 +139,8 @@
     - accert you see ! todo "a" and ! todo "b" and "2 items left" text at the bottom *items left unchange*
 * **( ! ) Delete todo** 
   * hover the cursor over the line with the text "a"
-    - a cross should appear on the right
-  * ( ! ) click on the cross to the right of the line with the text "a" 
+    - a X should appear on the right
+  * ( ! ) click on the X to the right of the line with the text "a" 
        + `accert one todo has deleted` 
     - accert you see ! todo "b" and "1 item left" text at the bottom *items left decrement*
   * type "c" at input form
