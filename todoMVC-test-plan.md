@@ -1,3 +1,9 @@
+### A priority ###
+     ( 1 ) high priority
+     ( 2 ) medium priority
+     ( 3 ) low priority
+     ( 4 ) You can forget about this item
+
 ### Functional map ###
 * **TodoMVC tab conditions**
     - ( 1 ) Open
