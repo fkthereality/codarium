@@ -6,12 +6,9 @@
      ( lowest ) You can forget about this item
 
 ### Functional map ###
-* **TodoMVC tab conditions**
-    - ( hight ) Open
-    - ( medium ) Reopen
-    - ( low ) Restart browser
+* **TodoMVC save data in storage after restart functionality**
 
-* **Operations with todo in each of filters separately**
+* **Operations for ALL**
     - ( hight ) Create 
     - Edit 
       - undo all changes:    
@@ -20,9 +17,7 @@
           -  ( hight ) Enter      
           -  ( low ) Tab
           -  ( low ) Click outside of editing form           
-          -  ( lowest )Control+Enter
-
-
+          -  ( lowest ) Control+Enter
 
     - Complete 
       - ( hight ) one 
@@ -37,9 +32,11 @@
        - ( lowest ) Clear Completed
        - ( lowest ) Edit to blank
 
+* **Operations on the Active and Completed**
+       - same where appropriate with correspondingly lower priorities (details skipped for now)
 
 **Note: Clear completed button, items left counter and filters are not required according to the terms of reference**
-* **( lowest ) Items left counter in each of filters separately**
+* **( low ) Items left counter in each of filters separately**
   
     - decrement
     - unchange
@@ -59,22 +56,16 @@
 
 * Open https://todomvc4tasj.herokuapp.com/
 
- * **Create new todo** 
    * create 'a', 'b'
      + `assert list: 'a', 'b'`
      
- * **Edit todo** 
    * edit 'a' to 'a edited'
    * cancel edit 'a edited' to 'a to be canceled' 
      + `assert list: 'a edited' ,  'b'`
      
-* **Complete todo** 
   * complete 'a edited'
   * Clear Complited 
       + `assert list: 'b'`
       
-* **Delete todo** 
   * delete 'b'
        + `assert list: empty` 
- 
- 
