@@ -1,55 +1,55 @@
 [Github](https://github.com/fkthereality/codarium/blob/ToDoMVC/todoMVC-test-plan.md)
 ### A priority ###
-     ( ! ) high priority
-     ( !! ) medium priority
-     ( !!! ) low priority
-     ( !!!! ) You can forget about this item
+     ( hight ) high priority
+     ( medium ) medium priority
+     ( low ) low priority
+     ( lowest ) You can forget about this item
 
 ### Functional map ###
 * **TodoMVC tab conditions**
-    - ( ! ) Open
-    - ( !! ) Reopen
-    - ( !!! ) Restart browser
+    - ( hight ) Open
+    - ( medium ) Reopen
+    - ( low ) Restart browser
 
 * **Operations with todo in each of filters separately**
-    - ( ! ) Create 
+    - ( hight ) Create 
     - Edit 
       - undo all changes:    
-          -  ( ! ) Escape 
+          -  ( hight ) Escape 
       - confirm all changes:
-          -  ( ! ) Enter      
-          -  ( !!! )Tab
-          -  ( !!! ) Click outside of editing form           
-          -  ( !!!! )Control+Enter
+          -  ( hight ) Enter      
+          -  ( low ) Tab
+          -  ( low ) Click outside of editing form           
+          -  ( lowest )Control+Enter
 
 
 
     - Complete 
-      - ( ! ) one 
-      - ( !!! ) All
+      - ( hight ) one 
+      - ( low ) All
 
     - Activate  
-      - ( ! ) one 
-      - ( !!! ) All
+      - ( hight ) one 
+      - ( low ) All
 
     - Delete 
-       - ( ! ) X 
-       - ( !!!! ) Clear Completed
-       - ( !!!! ) Edit to blank
+       - ( hight ) X 
+       - ( lowest ) Clear Completed
+       - ( lowest ) Edit to blank
 
 
 **Note: Clear completed button, items left counter and filters are not required according to the terms of reference**
-* **( !!!! ) Items left counter in each of filters separately**
+* **( lowest ) Items left counter in each of filters separately**
   
     - decrement
     - unchange
     - increment
 
-* **( !!!! ) Button Clear completed**
+* **( lowest ) Button Clear completed**
     - is visible when  1 or more todos completed
     - is hidden when no completed todos
     
-* **( !!! ) Filters**
+* **( low ) Filters**
     - All
     - Active
     - Completed  
